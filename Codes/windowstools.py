@@ -25,7 +25,6 @@ def shutdown(sht_horary):
         else:
             #Cancel the system shutdown
             os.system("shutdown -a")
-            os.system("cls")
             #Get the current horary from computer
             horary = datetime.now()
             # If the shutdown horary is bigger than current hour, so the computer just will shutdown in an another day
